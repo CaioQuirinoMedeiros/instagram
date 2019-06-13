@@ -35,5 +35,11 @@ module.exports = {
     req.io.emit("post", post);
 
     return res.json(post);
+  },
+
+  async destroy(req, res) {
+    await Post.findByIdAndDelete(req.params.id);
+
+    return res.send("Post deletado com sucesso");
   }
 };
