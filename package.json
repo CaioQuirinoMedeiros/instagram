@@ -1,7 +1,7 @@
 {
-  "name": "api",
+  "name": "instagram_api",
   "version": "1.0.0",
-  "description": "api do clone do instagram",
+  "description": "Api instagram's like app",
   "main": "index.js",
   "author": "Caio Quirino",
   "license": "MIT",
