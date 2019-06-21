@@ -2,18 +2,16 @@ const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
 const cors = require("cors");
+require("dotenv").config();
 
 const app = express();
 
 const server = require("http").Server(app);
 const io = require("socket.io")(server);
 
-mongoose.connect(
-  process.env.MONGO_CONNECT_URL,
-  {
-    useNewUrlParser: true
-  }
-);
+mongoose.connect(process.env.MONGO_CONNECT_URL, {
+  useNewUrlParser: true
+});
 
 app.use((req, res, next) => {
   req.io = io;
