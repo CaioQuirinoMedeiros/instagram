@@ -6,9 +6,9 @@ import New from "./pages/New";
 
 const Routes = () => (
   <Switch>
-    <Route exact path="/instagram_web" component={Feed} />
+    <Route exact path="/" component={Feed} />
     <Route path="/new" component={New} />
-    <Redirect to="/instagram_web" />
+    <Redirect to="/" />
   </Switch>
 );
 

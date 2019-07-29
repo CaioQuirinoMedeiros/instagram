@@ -35,7 +35,7 @@ class New extends Component {
     try {
       api.post("posts", data);
 
-      this.props.history.push("/instagram_web");
+      this.props.history.push("/");
     } catch (err) {
       console.log(err);
     }

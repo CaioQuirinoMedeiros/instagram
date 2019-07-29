@@ -12,7 +12,7 @@ class Header extends Component {
     return (
       <header id="main-header">
         <div className="header-content">
-          <Link to="/instagram_web">
+          <Link to="/">
             <img src={logo} alt="InstaRocket" />
           </Link>
           <Link to="/new">
