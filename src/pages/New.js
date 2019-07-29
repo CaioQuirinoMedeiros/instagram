@@ -35,13 +35,14 @@ class New extends Component {
     try {
       api.post("posts", data);
 
-      this.props.history.push("/");
+      this.props.history.push("/instagram_web");
     } catch (err) {
       console.log(err);
     }
   };
 
   render() {
+    console.log(this.props);
     return (
       <form id="new-post" onSubmit={this.handleSubmit}>
         <input type="file" onChange={this.handleImageChange} />
