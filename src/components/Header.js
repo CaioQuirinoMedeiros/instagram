@@ -8,10 +8,11 @@ import camera from "../assets/camera.svg";
 
 class Header extends Component {
   render() {
+    console.log(this.props);
     return (
       <header id="main-header">
         <div className="header-content">
-          <Link to="/">
+          <Link to="/instagram_web">
             <img src={logo} alt="InstaRocket" />
           </Link>
           <Link to="/new">
