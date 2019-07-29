@@ -1,8 +1,10 @@
 # Instagram's like web app
 
-This project is the front-end of a instagram's like web app. Users can post a photo with location, description and hashtags. Leave as many likes as you want!
+This project is the a instagram's like web app. Users can post a photo with location, description and hashtags. Leave as many likes as you want!
 
-This is a ReactJS project, bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and it uses a API restful to get data
+[The rest API of this project](https://github.com/CaioQuirinoMedeiros/instagram_api) was made with Express.js.
+
+This is a ReactJS project, bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 ## Available Scripts
 
