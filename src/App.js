@@ -5,8 +5,9 @@ import Routes from "./routes";
 import Header from "./components/Header";
 
 function App() {
+  console.log("url: ", process.env.PUBLIC_URL);
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes />
     </BrowserRouter>
