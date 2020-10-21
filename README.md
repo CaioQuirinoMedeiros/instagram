@@ -1,5 +1,8 @@
-# Instagram Web Clone
+<h1 align="center">
+   Instagram Web Clone
+</h1>
 
+<br></br>
 <img src="./web_instagram/public/instagram_thumb.png" width="100%">
 <br></br>
 
